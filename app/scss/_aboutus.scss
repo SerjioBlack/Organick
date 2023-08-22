@@ -1,0 +1,251 @@
+.aboutinfo {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    // .aboutinfo__img
+
+    &__img {
+        position: relative;
+        
+    }
+
+    // .aboutinfo__img-1
+
+    
+
+    // .aboutinfo__img-2
+
+    &__img-2 {
+        
+    }
+
+    // .aboutinfo__text
+
+    &__text {
+        h3 {
+            color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 10px;
+        }
+        h2 {
+            color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+margin-bottom: 20px;
+font-weight: 800;
+        }
+        p {
+            color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+line-height: 165.4%;
+margin-bottom: 20px;
+        }
+    }
+
+    // .aboutinfo__icons
+
+    &__icons {
+        display: flex;
+        &-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+        }
+       
+        margin-bottom: 60px;
+        img {
+            display: block;
+        }
+
+span {
+    display: inline-block;
+    color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+}
+    }
+
+    // .aboutinfo__link
+
+    &__link {
+        margin-top: 30px;
+         color: white;
+ font-family: Roboto;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 28px 59px 28px 39px;
+ border-radius: 16px;
+ background: #274C5B;
+ text-decoration: none;
+ position: relative;
+ 
+ img {
+     width: 19px;
+     height: 19px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+     
+ }
+    }
+}
+
+.whychoose {
+    padding: 120px 0;
+    display: flex;
+    gap: 50px;
+
+    // .whychoose__text
+
+    &__text {
+        h3 {
+            color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 20px;
+        }
+        h2 {
+            color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+margin-bottom: 25px;
+font-weight: 800;
+        }
+        p {
+            color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+margin-bottom: 25px;
+line-height: 165.4%;
+padding-left: 60px;
+        }
+    }
+
+    // .whychoose__item
+
+    &__item {
+        width: 339px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        border-radius: 49px;
+background: #ECECEC;
+        padding: 29px 92px 29px 29px;
+        margin-bottom: 25px;
+    }
+
+    
+
+    // .whychoose__img
+
+    &__img {
+        border-radius: 20px;
+    }
+}
+
+.aboutsupport {
+    padding: 90px 0;
+
+    // .aboutsupport__list
+
+    &__list {
+        
+        display: flex;
+    justify-content: center;
+    gap: 30px;
+    }
+
+    // .aboutsupport__item
+
+    &__item {
+        width: 250px;
+        background: #F9F8F8;;
+        text-align: center;
+        padding: 40px;
+        border-radius: 30px;
+
+        h4 {
+            padding-top: 40px;
+            color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+margin-bottom: 15px;
+font-weight: 800;
+        }
+
+        p {
+            color: #525C60;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 165.4%;
+        }
+    }
+}
+
+.aboutusoffer {
+    background: #274C5B;
+    padding: 180px 0;
+    text-align: center;
+    
+
+    h3 {
+        color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 15px;
+    }
+
+    h2 {
+        color: #FFF;
+font-family: Roboto;
+font-size: 50px;
+margin-bottom: 30px;
+font-weight: 800;
+    }
+
+    // .aboutusoffer__list
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    // .aboutusoffer__item
+
+    &__item {
+      
+p {
+    color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+margin-top: 30px;
+font-weight: 500;
+}
+    }
+
+    // .aboutusoffer__item-card
+
+    &__item-card {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        background: #FFF;
+padding-top: 20px;
+object-fit: contain;
+    }
+}
+
+.aboutmargin {
+    margin-bottom: 120px;
+}

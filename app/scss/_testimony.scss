@@ -1,0 +1,133 @@
+.testimony {
+    background-image: url(../images/testimonybg.webp), url(../images/testimonyleft.webp);
+    background-position: center right, center left;
+    background-repeat: no-repeat;
+    
+
+    // .testimony__head
+
+    &__head {
+        margin: 0 auto;
+        max-width: 700px;
+        text-align: center;
+        margin-top: 200px;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    // .testimony__head-subtitle
+
+    &__head-subtitle {
+        color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 10px;
+    }
+
+    // .testimony__head-title
+
+    &__head-title {
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 60px;
+    }
+
+    // .testimony__head-img
+
+    &__head-img {
+        border: 1px solid transparent;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    &__head-icon {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    // .testimony__head-desc
+
+    &__head-desc {
+        color: #525C60;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 165.4%;
+    }
+
+    // .testimony__head-name
+
+    &__head-name {
+        color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 600;
+margin-top: 30px;
+    }
+
+    // .testimony__head-customer
+
+    &__head-customer {
+        color: #525C60;
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 165.4%;
+    }
+
+    // .testimony__numbers
+
+    &__numbers {
+        margin: 0 auto;
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px 120px 10px;
+    }
+
+    // .testimony__stats
+
+    &__stats {
+        min-width: 150px;
+        min-height: 150px;
+        border: 2px solid #7EB693;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 40px 0;
+        
+       
+    }
+
+    // .testimony__stats-title
+
+    &__stats-title {
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 800;
+    }
+
+    // .testimony__stats-desc
+
+    &__stats-desc {
+        color: #274C5B;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 165.4%;
+    }
+
+}
+
+
+

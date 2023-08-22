@@ -1,0 +1,65 @@
+body {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.wrapper {
+	background: $gradient-supersoft;
+	padding-bottom: 60px;
+	border-radius: 0px 0px 12px 12px;
+	position: relative;
+	margin-bottom: 50px;
+
+	&::before {
+position: absolute;
+content: '';
+bottom: -10px;
+left: 50%;
+width: 90%;
+transform: translateX(-50%);
+height: 10px;
+border-radius: 0px 0px 12px 12px;
+background: #CACADB;
+	}
+
+	&::after {
+		position: absolute;
+content: '';
+bottom: -20px;
+left: 50%;
+transform: translateX(-50%);
+width: 80%;
+height: 10px;
+border-radius: 0px 0px 12px 12px;
+background: #E7E7F2;
+	}
+}
+
+.svgsprite {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -5;
+}
+
+.container {
+	// от 0 до 767px
+	padding: 0 30px;
+
+	// от 768 до 1023 включительно
+	@media screen and (min-width: $breakpoint-md) {
+		max-width: 708px;
+		margin: 0 auto;
+	}
+	// от 1024 до 1439px 
+	@media screen and (min-width: $breakpoint-lg) {
+		max-width: 964px;
+	}
+
+	@media screen and (min-width: $breakpoint-xl) {
+		max-width: 1380px;
+	}
+
+	
+}

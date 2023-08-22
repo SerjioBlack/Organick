@@ -1,0 +1,114 @@
+.about {
+    display: flex;
+    gap: 20px;
+
+    // .about__img
+
+    &__img {
+    }
+
+    // .about__section
+
+    &__section {
+        margin-top: 80px;
+    }
+
+    // .about__head
+
+    &__head {
+    }
+
+    // .about__head-subtitle
+
+    &__head-subtitle {
+        color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 15px;
+    }
+
+    // .about__head-title
+
+    &__head-title {
+        color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 15px;
+    }
+
+    // .about__head-desc
+
+    &__head-desc {
+        color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 165.4%;
+margin-bottom: 48px;
+    }
+
+    // .about__cards
+
+    &__cards {
+    }
+
+    // .about__card
+
+    &__card {
+        display: flex;
+        gap: 46px;
+        margin-bottom: 20px;
+    }
+
+    // .about__card-img
+
+    &__card-img {
+    }
+
+    // .about__card-text
+
+    &__card-text {
+        h4 {
+            color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 800;
+margin-bottom: 10px;
+        }
+        p {
+            color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 165.4%;
+        }
+    }
+
+
+    // .class=about__btn
+
+    &__btn {
+        display: block;
+        width: 220px;
+        height: 79px;
+         color: white;
+ font-family: Roboto;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 28px 39px;
+ border-radius: 16px;
+ background: #274C5B;
+ text-decoration: none;
+ position: relative;
+ 
+ img {
+     width: 19px;
+     height: 19px;
+    position: absolute;
+    right: 40px;
+    top: 28px;
+     
+ }
+    }
+}

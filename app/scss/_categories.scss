@@ -1,0 +1,147 @@
+.categories {
+    padding-top: 120px;
+    
+    
+
+    // .categories__subtitle
+
+    &__subtitle {
+        color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+    }
+
+    // .categories__title
+
+    &__title {
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+text-align: center;
+font-weight: 800;
+margin-bottom: 40px;
+    }
+
+    // .categories__list
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    // .categories__item
+
+    &__item {
+        max-width: 300px;
+        max-height: 483px;
+        border-radius: 30px;
+background: #F9F8F8;
+flex: 1 1 300px;
+margin-bottom: 30px;
+    }
+
+    // .categories__item-type
+
+    &__item-type {
+        display: inline-block;
+        color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+border-radius: 8px;
+background: #274C5B;
+padding: 5px 12px;
+text-align: left;
+    }
+
+    // .categories__item-img
+
+    &__item-img {
+        
+        object-fit: contain;
+    }
+
+    // .categories__item-desc
+
+    &__item-desc {
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+padding-bottom: 15px;
+margin: 30px 0;
+border-bottom: 1px solid #DEDDDD;
+    }
+
+    // .categories__item-price
+
+    &__item-price {
+        
+    }
+
+    // .categories__item-price--left
+
+    &__item-price--left {
+        text-decoration: line-through;
+        color: #B8B8B8;
+text-align: center;
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+padding-right: 10px;
+    }
+
+    // .categories__item-price--right
+
+    &__item-price--right {
+        color: #274C5B;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+    }
+
+    // .categories__item-rating
+
+    &__item-rating {
+    }
+}
+
+.categories__price {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.categories__btn {
+    margin: 0 auto;
+    display: block;
+    width: 220px;
+     color: white;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+padding: 28px 39px;
+border-radius: 16px;
+background: #274C5B;;
+text-decoration: none;
+position: relative;
+margin-top: 140px;
+
+img {
+ width: 19px;
+ height: 19px;
+position: absolute;
+right: 30px;
+top: 28px;
+ 
+}
+}
